@@ -1,5 +1,5 @@
 html {
-  background-color: rgba(58, 51, 53, 0.835);
+  background-color: #ffad7ab7;
 }
 
 .nameplate {
@@ -15,9 +15,9 @@ html {
   padding-right: 10px;
   padding-left: 10px;
   color: #fcde9c;
-  text-shadow: -7px 0 #ff8c42, 0 1px #ff8c42, 1px 0 #ff8c42, 0 -1px #ff8c42;
+  text-shadow: -7px 0 #ff8c42;
   background-color: #f85a3e;
-  box-shadow: -5px 0 #fcde9c, 0 5px #fcde9c, 5px 0 #fcde9c, 0 -5px #fcde9c;
+  border: solid 5px #f0a202;
   transform: translateY(100%);
 }
 
@@ -61,10 +61,14 @@ html {
 .gleam:hover:before {
   transform: translateX(3000px) skewX(-15deg);
   opacity: 0.6;
-  transition: 3.5s;
+  transition: 4s;
 }
 .gleam:hover:after {
   transform: translateX(2500px) skewX(-15deg);
   opacity: 1;
-  transition: 3.5s;
+  transition: 4s;
+}
+
+.name {
+  max-width: 90%;
 }

@@ -5,7 +5,9 @@ export default class Home extends Component {
   render() {
     return (
       <div class="main">
-        <div class="nameplate gleam">Chelsea Spangler</div>
+        <div class="nameplate gleam">
+          <span class="name">Chelsea Spangler</span>
+        </div>
       </div>
     )
   }
