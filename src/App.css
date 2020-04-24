@@ -1,0 +1,69 @@
+html {
+  background-color: rgba(58, 51, 53, 0.835);
+}
+
+.nameplate {
+  font-size: 80px;
+  font-family: 'Sonsie One', cursive;
+  text-align: center;
+  border-top-left-radius: 75px;
+  border-bottom-right-radius: 75px;
+  max-width: 75%;
+  margin-left: 25px;
+  margin-top: 25px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #fcde9c;
+  text-shadow: -7px 0 #ff8c42, 0 1px #ff8c42, 1px 0 #ff8c42, 0 -1px #ff8c42;
+  background-color: #f85a3e;
+  box-shadow: -5px 0 #fcde9c, 0 5px #fcde9c, 5px 0 #fcde9c, 0 -5px #fcde9c;
+}
+
+.gleam {
+  transition: 1.5s;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.gleam:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  width: 90px;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  opacity: 0.5;
+  filter: blur(30px);
+  transform: translateX(-200px) skewX(-15deg);
+}
+.gleam:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  width: 30px;
+  height: 100%;
+  left: 30px;
+  top: 0;
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-200px) skewX(-15deg);
+}
+/* .gleam:hover {
+  background: #338033;
+  cursor: pointer;
+} */
+.gleam:hover:before {
+  transform: translateX(3000px) skewX(-15deg);
+  opacity: 0.6;
+  transition: 1.5s;
+}
+.gleam:hover:after {
+  transform: translateX(3000px) skewX(-15deg);
+  opacity: 1;
+  transition: 1.5s;
+}
