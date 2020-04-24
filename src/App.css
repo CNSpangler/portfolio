@@ -18,6 +18,7 @@ html {
   text-shadow: -7px 0 #ff8c42, 0 1px #ff8c42, 1px 0 #ff8c42, 0 -1px #ff8c42;
   background-color: #f85a3e;
   box-shadow: -5px 0 #fcde9c, 0 5px #fcde9c, 5px 0 #fcde9c, 0 -5px #fcde9c;
+  transform: translateY(100%);
 }
 
 .gleam {
@@ -31,7 +32,7 @@ html {
   display: block;
   position: absolute;
   background: rgba(255, 255, 255, 0.5);
-  width: 90px;
+  width: 150px;
   height: 100%;
   left: 0;
   right: 0;
@@ -45,7 +46,7 @@ html {
   display: block;
   position: absolute;
   background: rgba(255, 255, 255, 0.2);
-  width: 30px;
+  width: 50px;
   height: 100%;
   left: 30px;
   top: 0;
@@ -60,10 +61,10 @@ html {
 .gleam:hover:before {
   transform: translateX(3000px) skewX(-15deg);
   opacity: 0.6;
-  transition: 1.5s;
+  transition: 2.5s;
 }
 .gleam:hover:after {
-  transform: translateX(3000px) skewX(-15deg);
+  transform: translateX(2500px) skewX(-15deg);
   opacity: 1;
-  transition: 1.5s;
+  transition: 2.5s;
 }
