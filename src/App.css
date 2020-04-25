@@ -1,5 +1,5 @@
 html {
-  background-color: #ffad7ab7;
+  background-color: #f85a3e;
 }
 
 .nameplate {
@@ -84,20 +84,16 @@ html {
   color:transparent;
 }
 
-/* .rivet {
-  font-size:200%;
-  background: linear-gradient(315deg, rgba(83,83,82,1) 0%, rgba(255,255,254,1) 65%, rgba(134,132,131,1) 100%);
+.rivet {
+  background: linear-gradient(345deg, rgba(83,83,82,1) 31%, #d1d1d0 60%, rgba(134,132,131,1) 80%, rgba(83,83,82,1) 95%);
   -webkit-background-clip: text;
   color:transparent;
-  text-shadow: -1px 1px #262626, -2px 2px 0 #262626, -3px 3px 0 #262626,
-  -6px 20px 20px rgba(0,0,0,1),
-  -1px -1px 0 #fff;
 }
 .rivet:after {
-  content:'FULL-STACK SOFTWARE ENGINEER';
+  content: '';
   animation:write 10s linear;
   animation-fill-mode: forwards;
-  background: linear-gradient(315deg, rgba(83,83,82,1) 0%, rgba(255,255,254,1) 65%, rgba(134,132,131,1) 100%);
+  background: linear-gradient(345deg, rgba(83,83,82,1) 31%, rgba(255,255,254,1) 60%, rgba(134,132,131,1) 80%, rgba(83,83,82,1) 95%);
   -webkit-background-clip: text;
   color:transparent;
 }
@@ -187,4 +183,7 @@ html {
   28% {
     content:'FULL-STACK SOFTWARE ENGINEER';
   }
-} */
+  100% {
+    content:'FULL-STACK SOFTWARE ENGINEER';
+  }
+}

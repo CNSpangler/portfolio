@@ -8,7 +8,7 @@ export default class Home extends Component {
         <div class="nameplate gleam">
           <span class="name">Chelsea Spangler</span>
         </div>
-        <span class="title">FULL-STACK SOFTWARE ENGINEER</span>
+        <span class="title rivet"></span>
       </div>
     )
   }
