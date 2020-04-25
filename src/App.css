@@ -3,6 +3,8 @@ html {
 }
 
 .nameplate {
+  position: relative;
+  height: 100%;
   font-size: 80px;
   font-family: 'Sonsie One', cursive;
   text-align: center;
@@ -14,10 +16,8 @@ html {
   padding-bottom: 10px;
   padding-right: 10px;
   padding-left: 10px;
-  color: #fcde9c;
-  text-shadow: -7px 0 #ff8c42;
-  background-color: #f85a3e;
-  border: solid 5px #f0a202;
+  background: linear-gradient(345deg, rgba(60, 66, 68, 0.925) 10%, rgba(152, 168, 177, 0.835) 49%, rgb(92, 112, 117) 82%);
+  border: solid 3px #585755;
   transform: translateY(0);
 }
 
@@ -54,10 +54,7 @@ html {
   filter: blur(5px);
   transform: translateX(-600px) skewX(-15deg);
 }
-/* .gleam:hover {
-  background: #338033;
-  cursor: pointer;
-} */
+
 .gleam:hover:before {
   transform: translateX(3000px) skewX(-15deg);
   opacity: 0.6;
@@ -70,32 +67,28 @@ html {
 }
 
 .name {
-  max-width: 90%;
+  background: linear-gradient(0deg, rgb(189, 176, 157) 4%, rgba(255,250,240,1) 44%, rgb(187, 172, 143) 82%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .title {
-  z-index: 0;
   font-family: 'Teko', sans-serif;
   font-size: 50px;
   text-align: center;
   transition: translateY(-50%);
-  background: linear-gradient(345deg, rgba(83,83,82,1) 31%, rgba(255,255,254,1) 60%, rgba(134,132,131,1) 80%, rgba(83,83,82,1) 95%);
-  -webkit-background-clip: text;
-  color:transparent;
 }
 
 .rivet {
-  background: linear-gradient(345deg, rgba(83,83,82,1) 31%, #d1d1d0 60%, rgba(134,132,131,1) 80%, rgba(83,83,82,1) 95%);
-  -webkit-background-clip: text;
-  color:transparent;
+  color: #F1EADC;
+  text-shadow: -4px 2px #A5989C;
+  
+  letter-spacing: 4px;
 }
 .rivet:after {
   content: '';
   animation:write 10s linear;
   animation-fill-mode: forwards;
-  background: linear-gradient(345deg, rgba(83,83,82,1) 31%, rgba(255,255,254,1) 60%, rgba(134,132,131,1) 80%, rgba(83,83,82,1) 95%);
-  -webkit-background-clip: text;
-  color:transparent;
 }
 
 @keyframes write {

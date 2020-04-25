@@ -5,9 +5,10 @@ export default class Home extends Component {
   render() {
     return (
       <div class="main">
-        <div class="nameplate gleam">
+        <section class="nameplate gleam">
           <span class="name">Chelsea Spangler</span>
-        </div>
+          {/* <span class="name-shadow">Chelsea Spangler</span> */}
+        </section>
         <span class="title rivet"></span>
       </div>
     )
