@@ -18,7 +18,7 @@ html {
   text-shadow: -7px 0 #ff8c42;
   background-color: #f85a3e;
   border: solid 5px #f0a202;
-  transform: translateY(100%);
+  transform: translateY(0);
 }
 
 .gleam {
@@ -71,4 +71,10 @@ html {
 
 .name {
   max-width: 90%;
+}
+
+.title {
+  font-family: 'Teko', sans-serif;
+  font-size: 50px;
+  text-align: center;
 }
