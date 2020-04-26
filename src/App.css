@@ -25,7 +25,7 @@ html {
   padding-bottom: 10px;
   padding-right: 10px;
   padding-left: 15px;
-  background: linear-gradient(345deg, rgba(60, 66, 68, 0.925) 10%, rgba(152, 168, 177, 0.835) 49%, rgb(92, 112, 117) 82%);
+  background: linear-gradient(345deg, rgba(68, 63, 60, 0.925) 35%, rgba(151, 134, 130, 0.835) 49%, rgb(92, 82, 77) 70%);
   border: solid 3px #585755;
   transform: translateY(0);
 }
@@ -82,7 +82,7 @@ html {
   width: 70vw;
   padding-right: 15px;
   padding-left: 15px;
-  background: linear-gradient(0deg, rgb(189, 176, 157) 4%, rgba(255,250,240,1) 44%, rgb(187, 172, 143) 82%);
+  background: linear-gradient(0deg, rgb(148, 138, 123) 24%, rgba(255,250,240,1) 44%, rgb(150, 137, 115) 82%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -130,7 +130,7 @@ html {
 #right {
   background: #f85a3e;
   float: left;
-  color: EDE5D6;
+  color: #EDE5D6;
 }
 
 @keyframes write {
