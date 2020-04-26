@@ -19,12 +19,11 @@ html {
   border-top-left-radius: 75px;
   border-bottom-right-radius: 75px;
   text-align: center;
+  height: auto;
   width: 75vw;
-  margin-left: 25px;
-  margin-top: 25px;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px;
   padding-right: 10px;
-  padding-left: 15px;
+  padding-left: 15px; */
   background: linear-gradient(345deg, rgba(68, 63, 60, 0.925) 35%, rgba(151, 134, 130, 0.835) 49%, rgb(92, 82, 77) 70%);
   border: solid 3px #585755;
   transform: translateY(0);
@@ -76,15 +75,41 @@ html {
 }
 
 .name {
-  height: 100%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   font-size: 5vw;
   font-family: 'Sonsie One', cursive;
   width: 70vw;
-  padding-right: 15px;
-  padding-left: 15px;
   background: linear-gradient(0deg, rgb(148, 138, 123) 24%, rgba(255,250,240,1) 44%, rgb(150, 137, 115) 65%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  z-index: 1;
+}
+
+.name-shadow {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 5vw;
+  font-family: 'Sonsie One', cursive;
+  width: 70vw;
+  text-shadow: -6px 3px rgb(48, 47, 47);
+  z-index: 0;
+}
+
+.name-placeholder {
+  font-size: 5vw;
+  font-family: 'Sonsie One', cursive;
+  width: 70vw;
+  color: transparent;
+  z-index: -1;
 }
 
 .title {

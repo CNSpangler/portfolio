@@ -8,6 +8,8 @@ export default class Home extends Component {
         <div class="main">
           <section class="nameplate gleam">
             <span class="name">Chelsea Spangler</span>
+            <span class="name-shadow">Chelsea Spangler</span>
+            <span class="name-placeholder">Chelsea Spangler</span>
           </section>
           <div class="title rivet"></div>
         </div>
