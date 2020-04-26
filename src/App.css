@@ -48,7 +48,7 @@ html {
   top: 0;
   opacity: 0.5;
   filter: blur(30px);
-  transform: translateX(-300px) skewX(-15deg);
+  transform: translateX(-300px) skewX(-25deg);
 }
 .gleam:after {
   content: "";
@@ -61,16 +61,16 @@ html {
   top: 0;
   opacity: 0;
   filter: blur(5px);
-  transform: translateX(-600px) skewX(-15deg);
+  transform: translateX(-600px) skewX(-25deg);
 }
 
 .gleam:hover:before {
-  transform: translateX(3000px) skewX(-15deg);
+  transform: translateX(3000px) skewX(-25deg);
   opacity: 0.6;
   transition: 4s;
 }
 .gleam:hover:after {
-  transform: translateX(2500px) skewX(-15deg);
+  transform: translateX(2500px) skewX(-25deg);
   opacity: 1;
   transition: 4s;
 }
@@ -82,7 +82,7 @@ html {
   width: 70vw;
   padding-right: 15px;
   padding-left: 15px;
-  background: linear-gradient(0deg, rgb(148, 138, 123) 24%, rgba(255,250,240,1) 44%, rgb(150, 137, 115) 82%);
+  background: linear-gradient(0deg, rgb(148, 138, 123) 24%, rgba(255,250,240,1) 44%, rgb(150, 137, 115) 65%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
