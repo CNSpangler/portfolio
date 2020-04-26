@@ -1,0 +1,30 @@
+@keyframes gleam {
+  from {
+    transform: translateX(-300px) skewX(-15deg);
+    transition: 4s;
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 0.6;
+    width: 150px;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    filter: blur(30px);
+  }
+
+  to {
+    transform: translateX(2500px) skewX(-15deg);
+    transition: 4s;  
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    width: 50px;
+    height: 100%;
+    left: 100px;
+    top: 0;
+    opacity: 0;
+    filter: blur(5px);
+  }
+}

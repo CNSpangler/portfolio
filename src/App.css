@@ -1,5 +1,10 @@
+
+* {
+  box-sizing: border-box;
+}
+
 html {
-  background-color: #fc7c32ec;
+  background-color: #fc7232ec;
 }
 
 .main {
@@ -7,21 +12,18 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  height: 25vh;
 }
 
 .nameplate {
-  position: relative;
-  height: 100%;
-  font-size: 80px;
-  font-family: 'Sonsie One', cursive;
-  text-align: center;
   border-top-left-radius: 75px;
   border-bottom-right-radius: 75px;
-  max-width: 75%;
+  text-align: center;
+  width: 75vw;
   margin-left: 25px;
   margin-top: 25px;
   padding-bottom: 10px;
-  padding-right: 15px;
+  padding-right: 10px;
   padding-left: 15px;
   background: linear-gradient(345deg, rgba(60, 66, 68, 0.925) 10%, rgba(152, 168, 177, 0.835) 49%, rgb(92, 112, 117) 82%);
   border: solid 3px #585755;
@@ -74,6 +76,12 @@ html {
 }
 
 .name {
+  height: 100%;
+  font-size: 5vw;
+  font-family: 'Sonsie One', cursive;
+  width: 70vw;
+  padding-right: 15px;
+  padding-left: 15px;
   background: linear-gradient(0deg, rgb(189, 176, 157) 4%, rgba(255,250,240,1) 44%, rgb(187, 172, 143) 82%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -81,13 +89,14 @@ html {
 
 .title {
   font-family: 'Teko', sans-serif;
-  font-size: 50px;
+  font-size: 4vw;
   text-align: center;
   transition: translateY(-50%);
 }
 
 .rivet {
   color: #EDE5D6;
+  height: 5vh;
   text-shadow: -1px 1px 0 #766D6E, -2px 2px 0 #766D6E, -3px 3px 0 #766D6E,
   -4px 4px 0 #766D6E, -5px 5px 0 #766D6E, -1px 1px 0 #766D6E, -6px 15px 20px rgba(0,0,0,1);
   letter-spacing: 4px;
@@ -96,6 +105,32 @@ html {
   content: '';
   animation:write 10s linear;
   animation-fill-mode: forwards;
+}
+
+.side-by-side {
+  display: flex;
+}
+
+.info {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4vw;
+  font-style: bold;
+  margin-top: 50px;
+  padding: 10px;
+  width: 50%;
+  height: 75vh;
+  border-top: solid 3px #766D6E;
+}
+
+#left {
+  background: #EDE5D6;
+  float: left;
+}
+
+#right {
+  background: #f85a3e;
+  float: left;
+  color: EDE5D6;
 }
 
 @keyframes write {
