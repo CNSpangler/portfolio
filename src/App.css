@@ -1,18 +1,9 @@
-
 * {
   box-sizing: border-box;
 }
 
 html {
-  background-color: #fc7232ec;
-}
-
-.main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 25vh;
+  background-color: #ff8c42;
 }
 
 .nameplate {
@@ -22,59 +13,11 @@ html {
   height: auto;
   width: 75vw;
   padding-bottom: 10px;
-
-  background: linear-gradient(345deg, rgba(68, 63, 60, 0.925) 35%, rgba(151, 134, 130, 0.835) 49%, rgb(92, 82, 77) 70%);
-  border: solid 3px #585755;
-  transform: translateY(0);
-}
-
-.gleam {
-  transition: 1.5s;
-  overflow: hidden;
-  max-height: 100%;
-}
-
-.gleam:before {
-  content: "";
-  display: block;
-  position: absolute;
-  background: rgba(255, 255, 255, 0.5);
-  width: 150px;
-  height: 100%;
-  left: 0;
-  right: 0;
-  top: 0;
-  opacity: 0.5;
-  filter: blur(30px);
-  transform: translateX(-300px) skewX(-25deg);
-}
-.gleam:after {
-  content: "";
-  display: block;
-  position: absolute;
-  background: rgba(255, 255, 255, 0.2);
-  width: 50px;
-  height: 100%;
-  left: 100px;
-  top: 0;
-  opacity: 0;
-  filter: blur(5px);
-  transform: translateX(-600px) skewX(-25deg);
-}
-
-.gleam:hover:before {
-  transform: translateX(3000px) skewX(-25deg);
-  opacity: 0.6;
-  transition: 4s;
-}
-.gleam:hover:after {
-  transform: translateX(2500px) skewX(-25deg);
-  opacity: 1;
-  transition: 4s;
+  background-color: #fcde9c;
+  border: 3px solid #f85a3e;
 }
 
 .name {
-  position: absolute;
   margin: auto;
   left: 0;
   right: 0;
@@ -83,32 +26,16 @@ html {
   font-size: 5vw;
   font-family: 'Sonsie One', cursive;
   width: 70vw;
-  background: linear-gradient(0deg, rgb(148, 138, 123) 24%, rgba(255,250,240,1) 44%, rgb(150, 137, 115) 65%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  z-index: 1;
+  color: #ff8c42;
+  text-shadow: -0.3rem 0.18rem #f85a3e;
 }
 
-.name-shadow {
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  font-size: 5vw;
-  font-family: 'Sonsie One', cursive;
-  width: 70vw;
-  text-shadow: -6px 3px rgb(48, 47, 47);
-  z-index: 0;
-}
-
-.name-placeholder {
-  font-size: 5vw;
-  font-family: 'Sonsie One', cursive;
-  width: 70vw;
-  color: transparent;
-  z-index: -1;
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 25vh;
 }
 
 .title {
@@ -133,6 +60,7 @@ html {
 
 .side-by-side {
   display: flex;
+  margin-top: 5vh;
 }
 
 .info {
@@ -155,6 +83,10 @@ html {
   background: #f85a3e;
   float: left;
   color: #EDE5D6;
+}
+
+.icon {
+  max-height: 2.5rem;
 }
 
 @keyframes write {

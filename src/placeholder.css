@@ -1,30 +1,279 @@
-@keyframes gleam {
-  from {
-    transform: translateX(-300px) skewX(-15deg);
-    transition: 4s;
-    display: block;
-    position: absolute;
-    background: rgba(255, 255, 255, 0.5);
-    opacity: 0.6;
-    width: 150px;
-    height: 100%;
-    left: 0;
-    right: 0;
-    top: 0;
-    filter: blur(30px);
-  }
 
-  to {
-    transform: translateX(2500px) skewX(-15deg);
-    transition: 4s;  
-    display: block;
-    position: absolute;
-    background: rgba(255, 255, 255, 0.2);
-    width: 50px;
-    height: 100%;
-    left: 100px;
-    top: 0;
-    opacity: 0;
-    filter: blur(5px);
-  }
-}
+// * {
+//   box-sizing: border-box;
+// }
+
+// html {
+//   background-color: #fc7232ec;
+// }
+
+// .main {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   flex-direction: column;
+//   height: 25vh;
+// }
+
+// .nameplate {
+//   border-top-left-radius: 75px;
+//   border-bottom-right-radius: 75px;
+//   text-align: center;
+//   height: auto;
+//   width: 75vw;
+//   padding-bottom: 10px;
+
+//   background: linear-gradient(345deg, rgba(68, 63, 60, 0.925) 35%, rgba(151, 134, 130, 0.835) 49%, rgb(92, 82, 77) 70%);
+//   border: solid 3px #585755;
+//   transform: translateY(0);
+// }
+
+// .gleam {
+//   transition: 1.5s;
+//   overflow: hidden;
+//   max-height: 100%;
+// }
+
+// .gleam:before {
+//   content: "";
+//   display: block;
+//   position: absolute;
+//   background: rgba(255, 255, 255, 0.5);
+//   width: 150px;
+//   height: 100%;
+//   left: 0;
+//   right: 0;
+//   top: 0;
+//   opacity: 0.5;
+//   filter: blur(30px);
+//   transform: translateX(-300px) skewX(-25deg);
+// }
+// .gleam:after {
+//   content: "";
+//   display: block;
+//   position: absolute;
+//   background: rgba(255, 255, 255, 0.2);
+//   width: 50px;
+//   height: 100%;
+//   left: 100px;
+//   top: 0;
+//   opacity: 0;
+//   filter: blur(5px);
+//   transform: translateX(-600px) skewX(-25deg);
+// }
+
+// .gleam:hover:before {
+//   transform: translateX(3000px) skewX(-25deg);
+//   opacity: 0.6;
+//   transition: 4s;
+// }
+// .gleam:hover:after {
+//   transform: translateX(2500px) skewX(-25deg);
+//   opacity: 1;
+//   transition: 4s;
+// }
+
+// .name {
+//   position: absolute;
+//   margin: auto;
+//   left: 0;
+//   right: 0;
+//   top: 0;
+//   bottom: 0;
+//   font-size: 5vw;
+//   font-family: 'Sonsie One', cursive;
+//   width: 70vw;
+//   background: linear-gradient(0deg, rgb(148, 138, 123) 24%, rgba(255,250,240,1) 44%, rgb(150, 137, 115) 65%);
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   z-index: 1;
+// }
+
+// .name-shadow {
+//   position: absolute;
+//   margin: auto;
+//   left: 0;
+//   right: 0;
+//   top: 0;
+//   bottom: 0;
+//   font-size: 5vw;
+//   font-family: 'Sonsie One', cursive;
+//   width: 70vw;
+//   text-shadow: -6px 3px rgb(48, 47, 47);
+//   z-index: 0;
+// }
+
+// .name-placeholder {
+//   font-size: 5vw;
+//   font-family: 'Sonsie One', cursive;
+//   width: 70vw;
+//   color: transparent;
+//   z-index: -1;
+// }
+
+// .title {
+//   font-family: 'Teko', sans-serif;
+//   font-size: 4vw;
+//   text-align: center;
+//   transition: translateY(-50%);
+// }
+
+// .rivet {
+//   color: #EDE5D6;
+//   height: 5vh;
+//   text-shadow: -1px 1px 0 #766D6E, -2px 2px 0 #766D6E, -3px 3px 0 #766D6E,
+//   -4px 4px 0 #766D6E, -5px 5px 0 #766D6E, -1px 1px 0 #766D6E, -6px 15px 20px rgba(0,0,0,1);
+//   letter-spacing: 4px;
+// }
+// .rivet:after {
+//   content: '';
+//   animation:write 10s linear;
+//   animation-fill-mode: forwards;
+// }
+
+// .side-by-side {
+//   display: flex;
+// }
+
+// .info {
+//   font-family: 'Open Sans', sans-serif;
+//   font-size: 4vw;
+//   font-style: bold;
+//   margin-top: 50px;
+//   padding: 10px;
+//   width: 50%;
+//   height: 75vh;
+//   border-top: solid 3px #766D6E;
+// }
+
+// #left {
+//   background: #EDE5D6;
+//   float: left;
+// }
+
+// #right {
+//   background: #f85a3e;
+//   float: left;
+//   color: #EDE5D6;
+// }
+
+// @keyframes write {
+//   1% {
+//     content:'F';
+//   }
+//   2% {
+//     content:'FU';
+//   }
+//   3% {
+//     content:'FUL';
+//   }
+//   4% {
+//     content:'FULL';
+//   }
+//   5% {
+//     content:'FULL-';
+//   }
+//   6% {
+//     content:'FULL-S';
+//   }
+//   7% {
+//     content:'FULL-ST';
+//   }
+//   8% {
+//     content:'FULL-STA';
+//   }
+//   9% {
+//     content:'FULL-STAC';
+//   }
+//   10% {
+//     content:'FULL-STACK';
+//   }
+//   11% {
+//     content:'FULL-STACK ';
+//   }
+//   12% {
+//     content:'FULL-STACK S';
+//   }
+//   13% {
+//     content:'FULL-STACK SO';
+//   }
+//   14% {
+//     content:'FULL-STACK SOF';
+//   }
+//   15% {
+//     content:'FULL-STACK SOFT';
+//   }
+//   16% {
+//     content:'FULL-STACK SOFTW';
+//   }
+//   17% {
+//     content:'FULL-STACK SOFTWA';
+//   }
+//   18% {
+//     content:'FULL-STACK SOFTWAR';
+//   }
+//   19% {
+//     content:'FULL-STACK SOFTWARE';
+//   }
+//   20% {
+//     content:'FULL-STACK SOFTWARE ';
+//   }
+//   21% {
+//     content:'FULL-STACK SOFTWARE E';
+//   }
+//   22% {
+//     content:'FULL-STACK SOFTWARE EN';
+//   }
+//   23% {
+//     content:'FULL-STACK SOFTWARE ENG';
+//   }
+//   24% {
+//     content:'FULL-STACK SOFTWARE ENGI';
+//   }
+//   25% {
+//     content:'FULL-STACK SOFTWARE ENGIN';
+//   }
+//   26% {
+//     content:'FULL-STACK SOFTWARE ENGINE';
+//   }
+//   27% {
+//     content:'FULL-STACK SOFTWARE ENGINEE';
+//   }
+//   28% {
+//     content:'FULL-STACK SOFTWARE ENGINEER';
+//   }
+//   100% {
+//     content:'FULL-STACK SOFTWARE ENGINEER';
+//   }
+// }
+
+// @keyframes gleam {
+//   from {
+//     transform: translateX(-300px) skewX(-15deg);
+//     transition: 4s;
+//     display: block;
+//     position: absolute;
+//     background: rgba(255, 255, 255, 0.5);
+//     opacity: 0.6;
+//     width: 150px;
+//     height: 100%;
+//     left: 0;
+//     right: 0;
+//     top: 0;
+//     filter: blur(30px);
+//   }
+
+//   to {
+//     transform: translateX(2500px) skewX(-15deg);
+//     transition: 4s;  
+//     display: block;
+//     position: absolute;
+//     background: rgba(255, 255, 255, 0.2);
+//     width: 50px;
+//     height: 100%;
+//     left: 100px;
+//     top: 0;
+//     opacity: 0;
+//     filter: blur(5px);
+//   }
+// }
