@@ -65,7 +65,7 @@ html {
 
 .info {
   font-family: 'Open Sans', sans-serif;
-  font-size: 4vw;
+  font-size: 2rem;
   font-style: bold;
   margin-top: 50px;
   padding: 10px;
@@ -86,7 +86,37 @@ html {
 }
 
 .icon {
-  max-height: 2.5rem;
+  max-height: 2.7rem;
+  padding-right: 0.7rem;
+  padding-top: 0.4rem;
+  margin-top: 0.2rem;
+}
+
+.contact {
+  margin-bottom: 2rem;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #FCDE9C;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
 }
 
 @keyframes write {
@@ -177,4 +207,9 @@ html {
   100% {
     content:'FULL-STACK SOFTWARE ENGINEER';
   }
+}
+
+Footer {
+  background-color: #ff8c42;
+  color: white;
 }

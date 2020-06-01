@@ -5,6 +5,7 @@ import {
   BrowserRouter as Router, } from 'react-router-dom';
 import './App.css';
 import Home from './Home.js';
+import Footer from './Footer';
 
 export default class App extends Component {
   render() {
@@ -17,6 +18,7 @@ export default class App extends Component {
             <Route exact path="/projects" component={Projects}/>
             <Route exact path="/about" component={About}/> */}
           </Switch>
+          <Footer />
         </Router>
       </div>
     )

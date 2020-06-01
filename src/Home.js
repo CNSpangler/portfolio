@@ -14,16 +14,34 @@ export default class Home extends Component {
 
         <div class="side-by-side">
           <div id="left" class="info">
-            Hi, I'm Chelsea. I build useful apps that solve real-world problems.
+            <p>Hi, I'm Chelsea. I build useful apps that solve real-world problems.</p>
+            <p>Scroll down to see some of my favorite projects.</p>
           </div>
           <ul id="right" class="info">
             <li>
-              <a href="https://www.canva.com/design/DAD5iEB56sc/5d2MYtNBsnSOXzPhpKT6Qg/view?utm_content=DAD5iEB56sc&utm_campaign=designshare&utm_mediumank&utm_source=sharebutton">
+              <a href="https://www.canva.com/design/DAD5iEB56sc/5d2MYtNBsnSOXzPhpKT6Qg/view?utm_content=DAD5iEB56sc&utm_campaign=designshare&utm_mediumank&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">
                 <img class="icon" src="resume.png" alt="Resume icon" />
-                <span>Resume</span>
+                <span class="contact">Resume</span>
               </a>
             </li>
-            <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
+            <li>
+              <a href="mailto:chelseanspangler@gmail.com" target="_blank" rel="noopener noreferrer">
+                <img class="icon" src="email.png" alt="email icon" />
+                <span class="contact">Email</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/cnspangler" target="_blank" rel="noopener noreferrer">
+                <img class="icon" src="github.png" alt="GitHub icon" />
+                <span class="contact">GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/chelseanspangler/" target="_blank" rel="noopener noreferrer">
+                <img class="icon" src="linkedin.png" alt="LinkedIn icon" />
+                <span class="contact">LinkedIn</span>
+              </a>
+            </li>
           </ul>
         </div>        
       </>
