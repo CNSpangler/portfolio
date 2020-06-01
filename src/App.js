@@ -10,7 +10,7 @@ import Footer from './Footer';
 export default class App extends Component {
   render() {
     return (
-      <div class="app-main">
+      <div className="app-main">
         <Router>
           <Switch>
             <Route path="/" component={Home}/>

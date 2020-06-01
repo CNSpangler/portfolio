@@ -81,29 +81,27 @@ html {
 
 #right {
   background: #f85a3e;
-  float: left;
   color: #EDE5D6;
+  float: left;
 }
 
 .icon {
   max-height: 2.7rem;
   padding-right: 0.7rem;
-  padding-top: 0.4rem;
-  margin-top: 0.2rem;
 }
 
 .contact {
-  margin-bottom: 2rem;
 }
 
 li {
   display: flex;
   align-items: center;
+  align-content: center;
 }
 
 a:link {
   text-decoration: none;
-  color: white;
+  color: #EDE5D6;
 }
 
 a:visited {
@@ -212,4 +210,7 @@ a:active {
 Footer {
   background-color: #ff8c42;
   color: white;
+  div {
+    text-align: center;
+  }
 }
