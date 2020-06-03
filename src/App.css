@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 html {
   background-color: #ff8c42;
+  font-size: 16px;
 }
 
 .nameplate {
@@ -60,17 +62,21 @@ html {
 
 .side-by-side {
   display: flex;
-  margin-top: 5vh;
+  font-size: 16px;
+  height: 33vh;
 }
 
 .info {
   font-family: 'Open Sans', sans-serif;
-  font-size: 2rem;
+  font-size: 5em;
   font-style: bold;
-  margin-top: 50px;
-  padding: 10px;
+  margin-top: 2vh;
+  padding-left: 0.4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 50%;
-  height: 75vh;
+  height: 100%;
   border-top: solid 3px #766D6E;
 }
 
