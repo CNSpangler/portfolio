@@ -9,15 +9,25 @@ export default class Home extends Component {
           <section className="nameplate gleam">
             <span className="name">Chelsea Spangler</span>
           </section>
-          <div className="title rivet"></div>
+            <h1 className="title">Full Stack Software Engineer</h1>
         </div>
 
-        <div className="side-by-side">
+        <div className="toptube"></div>
+
+        <div id="about" >
+          <p className="info">Hi, I'm Chelsea (she/her). I build useful apps that solve real-world problems. I am currently looking for work in/near Portland OR, or remotely.<br /><br />I love to ride bikes, make people laugh, invent creative cocktails, and read sci-fi.</p>
+        </div>
+
+        {/* <div className="side-by-side">
           <div id="left" className="info">
-            <p>Hi, I'm Chelsea. I build useful apps that solve real-world problems. I am currently looking for work in the Portland, OR area (or remotely).</p>
-            <p>Some of my favorite projects are highlighted below.</p>
+            <img alt="Chelsea posing with her bike" src="bike.jpg" id="bike" />
           </div>
-          <ul id="right" className="info">
+
+          <div id="right">
+          <p>Hi, I'm Chelsea. I build useful apps that solve real-world problems. I am currently looking for work in the Portland, OR area (or remotely).</p>
+          <p>Some of my favorite projects are highlighted below.</p>
+          </div> */}
+          {/* <ul id="right" className="info">
             <li>
               <a href="https://www.canva.com/design/DAD5iEB56sc/5d2MYtNBsnSOXzPhpKT6Qg/view?utm_content=DAD5iEB56sc&utm_campaign=designshare&utm_mediumank&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">
                 <img className="icon" src="curriculum.png" alt="Resume icon" />
@@ -42,9 +52,9 @@ export default class Home extends Component {
                 <span className="contact">LinkedIn</span>
               </a>
             </li>
-          </ul>
-        </div>
-        <div className="toptube"></div>
+          </ul> */}
+        {/* </div> */}
+        <h1>Portfolio</h1>
         <Projects />
       </>
     )

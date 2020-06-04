@@ -7,7 +7,7 @@ const Project = () => (
     </div>
     <div className="slide-element slide-text">
       <div id="slide-header">
-        <h1>DisasterProof</h1>
+        <h2>DisasterProof</h2>
         <div id="project-links">
           <a href="https://disasterproof.me">Live Site</a>
           <a href="https://github.com/Safety-Dance/disaster-prep-app">GitHub</a>
