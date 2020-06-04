@@ -68,7 +68,7 @@ html {
 
 .info {
   font-family: 'Open Sans', sans-serif;
-  font-size: 5em;
+  font-size: 5rem;
   font-style: bold;
   margin-top: 2vh;
   padding-left: 0.4em;
@@ -77,7 +77,7 @@ html {
   justify-content: center;
   width: 50%;
   height: 100%;
-  border-top: solid 3px #766D6E;
+  border-top: solid 3px #7E030D;
 }
 
 #left {
@@ -117,10 +117,27 @@ a:visited {
 
 a:hover {
   text-decoration: underline;
+  color: #FFDA58;
 }
 
 a:active {
   text-decoration: underline;
+  color: #FFDA58;
+}
+
+.slider-wrapper {
+  background: #FFF;
+}
+
+.slide-container {
+  display: flex;
+  flex-direction: row;
+  background: white;
+}
+
+.slide-element {
+  width: 45%;
+  float: left;
 }
 
 @keyframes write {

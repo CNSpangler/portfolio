@@ -4,8 +4,8 @@ import {
   Switch, 
   BrowserRouter as Router, } from 'react-router-dom';
 import './App.css';
-import Home from './Home.js';
-import Footer from './Footer';
+import Home from '../Home/Home';
+import Footer from '../Footer/Footer';
 
 export default class App extends Component {
   render() {

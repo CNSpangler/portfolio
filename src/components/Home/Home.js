@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Projects from '../Projects/Projects'
 
 export default class Home extends Component {
   render() {
@@ -14,7 +15,7 @@ export default class Home extends Component {
         <div className="side-by-side">
           <div id="left" className="info">
             <p>Hi, I'm Chelsea. I build useful apps that solve real-world problems. I am currently looking for work in the Portland, OR area (or remotely).</p>
-            <p>Scroll down to see some of my favorite projects.</p>
+            <p>Some of my favorite projects are highlighted below.</p>
           </div>
           <ul id="right" className="info">
             <li>
@@ -42,7 +43,8 @@ export default class Home extends Component {
               </a>
             </li>
           </ul>
-        </div>        
+        </div>
+        <Projects />
       </>
     )
   }
