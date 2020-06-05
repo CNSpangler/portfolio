@@ -4,7 +4,8 @@
 
 html {
   background-color: #FEFCF5;
-  font-size: 16px;
+  background: #f85a3e;
+
 }
 
 .toptube {
@@ -40,35 +41,36 @@ html {
   align-content: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 18vh;
+  margin-top: 20vh;
+  padding-top: 3vh;
+  width: 85vw;
+  margin-left: 7.5vw;
+  border-radius: 15px;
+  background: #f85a3e;
 }
 
 .name {
   font-size: 5vw;
   font-family: 'Sonsie One', cursive;
-  color: #7E030D;
-  text-shadow: -0.3rem 0.18rem black;
+  color: #fcde9c;
+  text-shadow: -0.3rem 0.18rem #7E030D;
 }
 
 h1 {
-  font-family: 'Kite One', sans-serif;
   font-size: 2.7vw;
   font-weight: bold;
-  font-style: italic;
   text-align: center;
-  color: #7E030D;
+  color: #fcde9c;
 }
 
 #about {
   display: flex;
-  flex-direction: row;
   background: #FEFCF5;
-  ;
   margin-top: 10px;
   margin-bottom: 10px;
   width: 70vw;
   border-radius: 15px;
-  border: solid 3px #f85a3e;
+  border: solid 3px #7E030D;
   margin-left: 15vw;
 }
 
@@ -77,6 +79,11 @@ h1 {
   font-size: 2vw;
   font-style: bold;
   padding: 0 3vw;
+}
+
+#portfolio {
+  text-align: left;
+  margin-left: 1vw;
 }
 
 .slider-wrapper {
@@ -88,13 +95,14 @@ h1 {
 .slide-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  justify-items: center;
   background: white;
   text-align: left;
   height: 100%;
 }
 
 .slide-element {
-  width: 45%;
   float: left;
 }
 
@@ -112,7 +120,14 @@ h1 {
   font-size: 24px;
 }
 
-.footer {
+#footer {
   background: #7E030D;
-  color: white;
+  color: #FEFCF5;
+  text-align: center;
+  height: 5vh;
+  margin-top: 0;
+}
+
+#footer a {
+  color: #FF9658;
 }

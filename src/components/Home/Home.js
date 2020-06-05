@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Projects from '../Projects/Projects'
+import Footer from '../Footer/Footer'
 
 export default class Home extends Component {
   render() {
@@ -31,8 +32,9 @@ export default class Home extends Component {
           <p className="info">Hi, I'm Chelsea (she/her). I build useful apps that solve real-world problems. I am currently looking for work in/near Portland OR, or remotely.<br /><br />I love to ride bikes, make people laugh, invent creative cocktails, and read sci-fi.</p>
         </div>
 
-        <h1>Portfolio</h1>
+        <h1 id="portfolio">Selected Projects:</h1>        
         <Projects />
+        <Footer />
       </>
     )
   }
