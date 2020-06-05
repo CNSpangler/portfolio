@@ -27,7 +27,8 @@ html {
 }
 
 .icon {
-  height: 3.5rem;
+  max-height: 3.5rem;
+  max-width: 8vw;
 }
 
 .icon:hover {
@@ -40,8 +41,7 @@ html {
   align-content: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 20vh;
-  padding-top: 3vh;
+  margin-top: 5rem;
   width: 85vw;
   margin-left: 7.5vw;
   border-radius: 15px;
@@ -125,7 +125,10 @@ h1 {
   color: #FEFCF5;
   text-align: center;
   height: 5vh;
+  width: 100%;
   margin-top: 0;
+  position: fixed;
+  bottom: 0;
 }
 
 #footer a {
