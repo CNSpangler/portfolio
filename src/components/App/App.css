@@ -67,14 +67,16 @@ h1 {
   background: #FEFCF5;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: solid 3px #7E030D;
+  border-top: solid 3px #7E030D;
+  border-bottom: solid 3px #7E030D;
 }
 
 .info {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.75vw;
   font-style: bold;
-  padding: 0 3vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 
 #portfolio {
@@ -96,7 +98,9 @@ h1 {
 }
 
 .slide-image-container {
-  width: 30vw;
+  width: 28vw;
+  padding-left: 1vw;
+
 }
 
 .slide-image {
