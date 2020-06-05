@@ -5,7 +5,7 @@
 html {
   background-color: #FEFCF5;
   background: #f85a3e;
-
+  font-size: 16px;
 }
 
 .toptube {
@@ -14,21 +14,20 @@ html {
   width: 100%;
   display: flex;
   align-items: center;
-  height: 15vh;
+  height: 4.5rem;
   border: solid 3px #7E030D;
   background: linear-gradient(135deg, #7E030D 26%, white 26% 38%, #FFDA58 38% 50%, #FF9658 50% 62%, #FF4E4E 62% 74%, #7E030D 74% 100%);
 }
 
 .links {
-  width: 46%;
-  margin-left: 27%;
-  margin-right: 27%;
+  width: 60%;
+  margin-left: 20%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .icon {
-  height: 3.75em;
+  height: 3.5rem;
 }
 
 .icon:hover {
@@ -108,6 +107,7 @@ h1 {
 
 .slide-text {
   padding-left: 1rem;
+  font-size: 2vw;
 }
 
 #slide-header a{
@@ -117,7 +117,7 @@ h1 {
 
 #slide-header h2 {
   color: #7E030D;
-  font-size: 24px;
+  font-size: 2.5vw;
 }
 
 #footer {
