@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #FEFCF5;
+  background: #f85a3e;
+  font-size: 16px;
+}
+
+.toptube {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 4.5rem;
+  border: solid 3px #7E030D;
+  background: linear-gradient(135deg, #7E030D 26%, white 26% 38%, #FFDA58 38% 50%, #FF9658 50% 62%, #FF4E4E 62% 74%, #7E030D 74% 100%);
+}
+
+.links {
+  width: 60%;
+  margin-left: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon {
+  max-height: 3.5rem;
+  max-width: 8vw;
+}
+
+.icon:hover {
+  background: rgb(251, 122, 2);
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  width: 85vw;
+  margin-left: 7.5vw;
+  border-radius: 15px;
+  background: #f85a3e;
+}
+
+.name {
+  font-size: 5vw;
+  font-family: 'Sonsie One', cursive;
+  color: #fcde9c;
+  text-shadow: -0.3rem 0.18rem #7E030D;
+}
+
+h1 {
+  font-size: 2.7vw;
+  font-weight: bold;
+  text-align: center;
+  color: #fcde9c;
+}
+
+#about {
+  display: flex;
+  background: #FEFCF5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: solid 3px #7E030D;
+  border-bottom: solid 3px #7E030D;
+}
+
+.info {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.75vw;
+  font-style: bold;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+#portfolio {
+  text-align: left;
+  margin-left: 1vw;
+}
+
+.slider-wrapper {
+  background: #FFFFFF;
+  border-top: solid 3px #7E030D;
+  border-bottom: solid 3px #7E030D;
+}
+
+.slide-container {
+  display: flex;
+  text-align: left;
+  background: #FFFFFF;
+  height: 100%;
+}
+
+.slide-image-container {
+  width: 28vw;
+  padding-left: 1vw;
+
+}
+
+.slide-image {
+  margin-top: 3vh;
+}
+
+.slide-text {
+  padding-left: 1rem;
+  font-size: 1.75vw;
+  width: 70vw;
+}
+
+#slide-header a{
+  margin-right: 1.5rem;
+  color: #f85a3e;
+}
+
+#slide-header a:hover {
+  color: #FFDA58;
+}
+
+#slide-header h2 {
+  color: #7E030D;
+  font-size: 2.5vw;
+}
+
+#footer {
+  background: #7E030D;
+  color: #FEFCF5;
+  text-align: center;
+  height: 5vh;
+  width: 100%;
+  margin-top: 0;
+  position: fixed;
+  bottom: 0;
+}
+
+#footer a {
+  color: #FF9658;
+}
