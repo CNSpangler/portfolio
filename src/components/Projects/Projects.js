@@ -10,7 +10,7 @@ const projectSlides = projectData.map(project => (
 
 const Projects = () => (
   <div>
-    <Carousel autoplay>
+    <Carousel infiniteLoop useKeyboardArrows autoPlay interval="6000">
       {projectSlides}
     </Carousel>
   </div>

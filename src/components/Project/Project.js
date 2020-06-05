@@ -2,10 +2,12 @@ import React from 'react';
 
 const Project = ({alt, img, title, live, github, description}) => (
   <div className="slide-container">
-    <div className="slide-element" >
-      <img alt={alt} src={img} />
+    
+    <div className="slide-image-container" >
+      <img className="slide-image" alt={alt} src={img} />
     </div>
-    <div className="slide-element slide-text">
+
+    <div className="slide-text">
       <div id="slide-header">
         <h2>{title}</h2>
         <div id="project-links">

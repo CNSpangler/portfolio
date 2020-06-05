@@ -27,8 +27,8 @@
     "title": "DisasterProof",
     "img": "disasterproof.png",
     "alt": "DisasterProof shield logo",
-    "live": "https://disasterproof.me",
+    "live": "http://disasterproof.me/",
     "github": "https://github.com/Safety-Dance/disaster-prep-app",
-    "description": "I conceived of DisasterProof as a way to make home disaster preparation less overwhelming. My team helped make this vision a reality in a one-week sprint using vanilla JavaScript."
+    "description": "DisasterProof makes home disaster preparation less overwhelming, by breaking tasks down into approachable categories and helping users create a custom preparation list. My team helped make this vision a reality in a one-week spring using vanilla JavaScript and local storage."
   }
 ]
