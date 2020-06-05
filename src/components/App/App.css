@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  font-size: 16px;
 }
 
 html {
@@ -27,7 +26,6 @@ html {
 .name {
   font-size: 5vw;
   font-family: 'Sonsie One', cursive;
-  width: 70vw;
   color: #7E030D;
   text-shadow: -0.3rem 0.18rem black;
 }
@@ -42,16 +40,43 @@ h1 {
 }
 
 .toptube {
-  height: 15vh;
+  display: flex;
+  align-items: center;
+  height: 5em;
   margin-top: 1vw;
   border: solid 3px #7E030D;
   background: linear-gradient(135deg, #7E030D 26%, white 26% 38%, #FFDA58 38% 50%, #FF9658 50% 62%, #FF4E4E 62% 74%, #7E030D 74% 100%);
 }
 
+.icon {
+  height: 3.75em;
+}
+
+.icon:hover {
+  background: rgb(251, 122, 2);
+}
+
+#resume {
+  margin-left: 29vw;
+}
+
+#email {
+  margin-left: 10vw;
+}
+
+#github {
+  margin-left: 9vw;
+}
+
+#linkedin {
+  margin-left: 8%;
+}
+
 #about {
   display: flex;
   flex-direction: row;
-  background: white;
+  background: #FEFCF5;
+  ;
   margin-top: 10px;
   margin-bottom: 10px;
   width: 70vw;

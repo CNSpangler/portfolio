@@ -12,7 +12,20 @@ export default class Home extends Component {
             <h1 className="title">Full Stack Software Engineer</h1>
         </div>
 
-        <div className="toptube"></div>
+        <div className="toptube">
+          <a href="https://www.canva.com/design/DAD5iEB56sc/5d2MYtNBsnSOXzPhpKT6Qg/view?utm_content=DAD5iEB56sc&utm_campaign=designshare&utm_mediumank&utm_source=sharebutton" target="_blank" rel="noopener noreferrer" id="resume">
+            <img alt="resume icon" src="resumeRed.png" className="icon"/>
+          </a>
+          <a href="mailto:chelseanspangler@gmail.com" target="_blank" rel="noopener noreferrer" id="email">
+            <img className="icon" src="emailRed.png" alt="email icon" />
+          </a>
+          <a href="https://github.com/cnspangler" target="_blank" rel="noopener noreferrer" id="github">
+            <img className="icon" src="githubRed.png" alt="GitHub icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/chelseanspangler/" target="_blank" rel="noopener noreferrer" id="linkedin">
+                <img className="icon" src="linkedinRed.png" alt="LinkedIn icon" />
+              </a>
+        </div>
 
         <div id="about" >
           <p className="info">Hi, I'm Chelsea (she/her). I build useful apps that solve real-world problems. I am currently looking for work in/near Portland OR, or remotely.<br /><br />I love to ride bikes, make people laugh, invent creative cocktails, and read sci-fi.</p>
