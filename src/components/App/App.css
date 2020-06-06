@@ -107,6 +107,11 @@ h1 {
   margin-top: 3vh;
 }
 
+.slide-title {
+  color: #7E030D;
+  font-size: 2.5vw;
+}
+
 .slide-text {
   padding-left: 1rem;
   font-size: 1.75vw;
@@ -120,11 +125,6 @@ h1 {
 
 #slide-header a:hover {
   color: #FFDA58;
-}
-
-#slide-header h2 {
-  color: #7E030D;
-  font-size: 2.5vw;
 }
 
 #footer {
@@ -179,8 +179,8 @@ h1 {
     width: 50vw;
   }
 
-  h2 .slide-title {
-    color: red;
+  .slide-title {
+    font-size: 4vw;
   }
 
   .slide-text {
