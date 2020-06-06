@@ -9,7 +9,7 @@ const Project = ({alt, img, title, live, github, description}) => (
 
     <div className="slide-text">
       <div id="slide-header">
-        <h2>{title}</h2>
+        <h2 className="slide-title">{title}</h2>
         <div id="project-links">
           <a href={live} target="_blank" rel="noopener noreferrer">Live Site</a>
           <a href={github} target="_blank" rel="noopener noreferrer">GitHub</a>

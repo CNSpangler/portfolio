@@ -141,3 +141,50 @@ h1 {
 #footer a {
   color: #FF9658;
 }
+
+@media only screen and (max-width: 600px) {
+  .toptube {
+    height: 3rem;
+  }
+
+  .icon {
+    height: 1.3rem;
+  }
+
+  .main {
+    margin-top: 3.5rem;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .name {
+    font-size: 7vw;
+  }
+
+  h1 {
+    font-size: 5vw;
+  }
+
+  .info {
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
+    font-size: 4vw;
+  }
+
+  .slide-container {
+    flex-direction: column;
+  }
+
+  slide-image-container {
+    width: 50vw;
+  }
+
+  h2 .slide-title {
+    color: red;
+  }
+
+  .slide-text {
+    width: 95vw;
+    font-size: 3.5vw;
+  }
+}
