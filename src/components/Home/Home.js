@@ -30,27 +30,29 @@ export default class Home extends Component {
 
         <div className="chevron-container">
           <div className="chevron" id="chev1">
-            <div className="chevron-inner">
-              <div className="chevron-content">Hi, I'm Chelsea. I make things.</div>
-            </div>
+            <div className="chevron-inner"></div>
           </div>
 
           <div className="chevron" id="chev2">
-            <div className="chevron-inner">
-              <div className="chevron-content">Hi, I'm Chelsea. I make things.</div>
-            </div>
+            <div className="chevron-inner"></div>
           </div>
 
           <div className="chevron" id="chev3">
-            <div className="chevron-inner">
-              <div className="chevron-content">Hi, I'm Chelsea. I make things.</div>
-            </div>
+            <div className="chevron-inner"></div>
           </div>
 
           <div className="chevron" id="chev4">
             <div className="chevron-inner">
-              <div className="chevron-content">Hi, I'm Chelsea. I make things.</div>
+              <div className="chevron-content">Hi, I'm Chelsea. I make things. Stuff stuff stuff Stuff stuff stuff Stuff stuff stuff Stuff stuff stuff Stuff stuff stuff</div>
             </div>
+          </div>
+
+          {/* <div className="chevron" id="chev5">
+            <div className="chevron-inner"></div>
+          </div> */}
+
+          <div className="chevron" id="chev6">
+            <div className="chevron-inner"></div>
           </div>
         </div>
 
