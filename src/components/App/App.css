@@ -17,6 +17,7 @@ html {
   height: 4.5rem;
   border: solid 3px #7E030D;
   background: linear-gradient(135deg, #7E030D 26%, white 26% 38%, #FFDA58 38% 50%, #FF9658 50% 62%, #FF4E4E 62% 74%, #7E030D 74% 100%);
+  z-index: 4;
 }
 
 .links {
@@ -60,6 +61,62 @@ h1 {
   font-weight: bold;
   text-align: center;
   color: #fcde9c;
+}
+
+.chevron:first-child {
+  margin-top: 20px;
+}
+
+.chevron {
+position: relative;
+text-align: center;
+padding: 12px 0;
+width: 290px;
+margin: 0 auto;
+margin-bottom: 5px;
+color: #fff;
+}
+
+.chevron:before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 51%;
+-webkit-transform: skew(0deg, 8deg);
+-moz-transform: skew(0deg, 8deg);
+-ms-transform: skew(0deg, 8deg);
+-o-transform: skew(0deg, 8deg);
+transform: skew(0deg, 8deg);
+background-color: #365984;
+}
+
+.chevron:after {
+content: '';
+position: absolute;
+top: 0;
+right: 0;
+height: 100%;
+width: 50%;
+-webkit-transform: skew(0deg, -8deg);
+-moz-transform: skew(0deg, -8deg);
+-ms-transform: skew(0deg, -8deg);
+-o-transform: skew(0deg, -8deg);
+transform: skew(0deg, -8deg);
+background-color: rgb(54, 89, 132);
+}
+
+.chevron .chevron-inner{
+position: relative;
+z-index: 2;
+padding: 30px 20px 20px;
+margin-bottom: 5px;
+font-size: 18px;
+}
+
+.chevron-content{
+padding: 0 10px;
 }
 
 #about {
