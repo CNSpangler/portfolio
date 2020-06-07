@@ -74,12 +74,13 @@ h1 {
   padding: 0 1.3vw;
   height: 90%;
   color: #fff;
+  display: flex;
+  align-items: center;
 }
 
 .chevron-inner{
   z-index: 2;
-  padding: 30px 20px 20px;
-  display: flex;
+  padding: 0 20px 20px;
 }
 
 .chevron-content {
