@@ -29,25 +29,25 @@ export default class Home extends Component {
         </div>
 
         <div className="chevron-container">
-          <div className="chevron">
+          <div className="chevron" id="chev1">
             <div className="chevron-inner">
               <div className="chevron-content">Hi, I'm Chelsea. I make things.</div>
             </div>
           </div>
 
-          <div className="chevron">
+          <div className="chevron" id="chev2">
             <div className="chevron-inner">
               <div className="chevron-content">Hi, I'm Chelsea. I make things.</div>
             </div>
           </div>
 
-          <div className="chevron">
+          <div className="chevron" id="chev3">
             <div className="chevron-inner">
               <div className="chevron-content">Hi, I'm Chelsea. I make things.</div>
             </div>
           </div>
 
-          <div className="chevron">
+          <div className="chevron" id="chev4">
             <div className="chevron-inner">
               <div className="chevron-content">Hi, I'm Chelsea. I make things.</div>
             </div>
