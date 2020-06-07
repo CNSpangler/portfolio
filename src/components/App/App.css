@@ -286,18 +286,71 @@ h1 {
     font-size: 5vw;
   }
 
-  .chevron-container {
-    flex-direction: column;
-  }
-  
   .chevron:first-child {
     margin-top: 20px;
   }
 
-  .info {
-    margin-left: 3.5vw;
-    margin-right: 3.5vw;
-    font-size: 4vw;
+  .chevron-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .chevron {
+    position: relative;
+    text-align: center;
+    width: 70%;
+  }
+  
+  .chevron:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 51%;
+    -webkit-transform: skew(0deg, 8deg);
+    -moz-transform: skew(0deg, 8deg);
+    -ms-transform: skew(0deg, 8deg);
+    -o-transform: skew(0deg, 8deg);
+    transform: skew(0deg, 8deg);
+  }
+  
+  .chevron:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    -webkit-transform: skew(0deg, -8deg);
+    -moz-transform: skew(0deg, -8deg);
+    -ms-transform: skew(0deg, -8deg);
+    -o-transform: skew(0deg, -8deg);
+    transform: skew(0deg, -8deg);
+  }
+
+  .chevron-inner {
+    height: auto;
+  }
+
+  .chevron-content {
+    margin-top: 3vh;
+    font-size: 3.5vw;
+    padding: 1.5vw 1vw;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #chev1 {
+    margin-left: 0;
+  }
+
+  #chev4 {
+    width: 70%;
+  }
+
+  #chev6 {
+    width: 70%;
   }
 
   #portfolio {
