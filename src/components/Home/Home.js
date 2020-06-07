@@ -28,27 +28,29 @@ export default class Home extends Component {
           <h1 className="title">Full Stack Software Engineer</h1>
         </div>
 
-        <div class="chevron">
-          <div class="chevron-inner">
-            <div class="chevron-content">Hi, I'm Chelsea. I make things.</div>
+        <div className="chevron-container">
+          <div className="chevron">
+            <div className="chevron-inner">
+              <div className="chevron-content">Hi, I'm Chelsea. I make things.</div>
+            </div>
           </div>
-        </div>
 
-        <div class="chevron">
-          <div class="chevron-inner">
-            <div class="chevron-content">Hi, I'm Chelsea. I make things.</div>
+          <div className="chevron">
+            <div className="chevron-inner">
+              <div className="chevron-content">Hi, I'm Chelsea. I make things.</div>
+            </div>
           </div>
-        </div>
 
-        <div class="chevron">
-          <div class="chevron-inner">
-            <div class="chevron-content">Hi, I'm Chelsea. I make things.</div>
+          <div className="chevron">
+            <div className="chevron-inner">
+              <div className="chevron-content">Hi, I'm Chelsea. I make things.</div>
+            </div>
           </div>
-        </div>
 
-        <div class="chevron">
-          <div class="chevron-inner">
-            <div class="chevron-content">Hi, I'm Chelsea. I make things.</div>
+          <div className="chevron">
+            <div className="chevron-inner">
+              <div className="chevron-content">Hi, I'm Chelsea. I make things.</div>
+            </div>
           </div>
         </div>
 

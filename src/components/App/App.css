@@ -63,8 +63,9 @@ h1 {
   color: #fcde9c;
 }
 
-.chevron:first-child {
-  margin-top: 20px;
+.chevron-container {
+  display: flex;
+  flex-direction: row;
 }
 
 .chevron {
@@ -157,7 +158,6 @@ padding: 0 10px;
 .slide-image-container {
   width: 28vw;
   padding-left: 1vw;
-
 }
 
 .slide-image {
@@ -220,6 +220,14 @@ padding: 0 10px;
 
   h1 {
     font-size: 5vw;
+  }
+
+  .chevron-container {
+    flex-direction: column;
+  }
+  
+  .chevron:first-child {
+    margin-top: 20px;
   }
 
   .info {
