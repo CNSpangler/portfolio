@@ -43,13 +43,9 @@ export default class Home extends Component {
 
           <div className="chevron" id="chev4">
             <div className="chevron-inner">
-              <div className="chevron-content">Hi, I'm Chelsea. I make things. Stuff stuff stuff Stuff stuff stuff Stuff stuff stuff Stuff stuff stuff Stuff stuff stuff</div>
+              <div className="chevron-content">Hi, I'm Chelsea (she/her). I build useful apps that solve real-world problems. I am currently looking for work in/near Portland OR, or remotely.</div>
             </div>
           </div>
-
-          {/* <div className="chevron" id="chev5">
-            <div className="chevron-inner"></div>
-          </div> */}
 
           <div className="chevron" id="chev6">
             <div className="chevron-inner"></div>
