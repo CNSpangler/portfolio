@@ -28,9 +28,33 @@ export default class Home extends Component {
           <h1 className="title">Full Stack Software Engineer</h1>
         </div>
 
-        <div id="about" >
-          <p className="info">Hi, I'm Chelsea (she/her). I build useful apps that solve real-world problems. I am currently looking for work in/near Portland OR, or remotely.<br /><br />I love to ride bikes, make people laugh, invent creative cocktails, and read sci-fi.</p>
+        <div className="chevron-container">
+          <div className="chevron" id="chev1">
+            <div className="chevron-inner"></div>
+          </div>
+
+          <div className="chevron" id="chev2">
+            <div className="chevron-inner"></div>
+          </div>
+
+          <div className="chevron" id="chev3">
+            <div className="chevron-inner"></div>
+          </div>
+
+          <div className="chevron" id="chev4">
+            <div className="chevron-inner">
+              <div className="chevron-content">Hi, I'm Chelsea (she/her). I build useful apps that solve real-world problems. I am currently looking for work in/near Portland OR, or remotely.</div>
+            </div>
+          </div>
+
+          <div className="chevron" id="chev6">
+            <div className="chevron-inner"></div>
+          </div>
         </div>
+
+        {/* <div id="about" >
+          <p className="info">Hi, I'm Chelsea (she/her). I build useful apps that solve real-world problems. I am currently looking for work in/near Portland OR, or remotely.<br /><br />I love to ride bikes, make people laugh, invent creative cocktails, and read sci-fi.</p>
+        </div> */}
 
         <h1 id="portfolio">Selected Projects:</h1>        
         <Projects />
