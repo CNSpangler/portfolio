@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "description": "Chelsea Spangler is a full stack software engineer.",
+  "description": "Full stack software engineer who approaches challenges with creativity, empathy, and humor..",
   "main": "dist/index.js",
   "private": true,
   "dependencies": {
