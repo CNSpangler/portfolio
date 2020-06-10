@@ -243,6 +243,10 @@ h1 {
   width: 70vw;
 }
 
+.control-arrow {
+  background: gray;
+}
+
 #slide-header a{
   margin-right: 1.5rem;
   color: #f85a3e;
