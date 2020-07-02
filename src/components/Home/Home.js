@@ -8,7 +8,7 @@ export default class Home extends Component {
       <>
         <div className="toptube">
           <div className="links">
-            <a href="https://www.canva.com/design/DAD5iEB56sc/5d2MYtNBsnSOXzPhpKT6Qg/view?utm_content=DAD5iEB56sc&utm_campaign=designshare&utm_mediumank&utm_source=sharebutton" target="_blank" rel="noopener noreferrer" id="resume">
+            <a href="CNSresume.pdf" target="_blank" rel="noopener noreferrer" id="resume">
               <img alt="resume icon" src="resumeRed.png" className="icon"/>
             </a>
             <a href="mailto:chelseanspangler@gmail.com" target="_blank" rel="noopener noreferrer" id="email">
