@@ -1,5 +1,12 @@
 [
   {
+    "title": "Safe Place for Youth",
+    "img": "safeplace.jpeg",
+    "alt": "Smartphone displaying Safe Place homescreen with a list of nearby locations",
+    "github": "https://github.com/orgs/safe-place-for-youth/dashboard",
+    "description": ""
+  },
+  {
     "title": "Going Viral: Pandemic-Related Mobility Metrics",
     "img": "goingviral.png",
     "alt": "Going Viral homepage screenshot",
@@ -11,7 +18,6 @@
     "title": "Social Distance-Ping",
     "img": "ping.png",
     "alt": "Social Distance-Ping logo",
-    "live": "https://github.com/Alchemy-Covid-19",
     "github": "https://github.com/Alchemy-Covid-19",
     "description": "Social Distance-Ping scrapes global COVID-19 data from reputable sources every hour, and allows users to request current location-specific data texted to their phones on-demand or as a daily digest. Ping was built in Node.js using Express, MongoDB, and Heroku, leveraging web scraping with a headless browser, scheduled scripts, and Twilio."
   },

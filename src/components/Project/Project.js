@@ -11,7 +11,7 @@ const Project = ({alt, img, title, live, github, description}) => (
       <div id="slide-header">
         <h2 className="slide-title">{title}</h2>
         <div id="project-links">
-          <a href={live} target="_blank" rel="noopener noreferrer">Live Site</a>
+          {live && <a href={live} target="_blank" rel="noopener noreferrer">Live Site</a>}
           <a href={github} target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
       </div>
