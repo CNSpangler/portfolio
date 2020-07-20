@@ -4,7 +4,7 @@
     "img": "safeplace.jpeg",
     "alt": "Smartphone displaying Safe Place homescreen with a list of nearby locations",
     "github": "https://github.com/orgs/safe-place-for-youth/dashboard",
-    "description": ""
+    "description": "This mobile app won the 2020 Tech Association of Oregon hackathon. Our team of three designed and prototyped the React Native app to connect youth experiencing houselessness with nearby safe places they can go. My primary contributions were implementing an AirTable no-code database to make data maintenance easier for the nonprofit client, using geolocation data to find and sort places based on the user's location, and extracting reusable React hooks to make our codebase more modular."
   },
   {
     "title": "Going Viral: Pandemic-Related Mobility Metrics",
